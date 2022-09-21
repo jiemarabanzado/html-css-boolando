@@ -81,6 +81,13 @@
     padding-top: 4px;
     font-size: 25px;
 }
+.sconto{
+    background-color: red;
+    color: white;
+    padding: 0px 10px;
+    position: absolute;
+    bottom: 50px;
+}
 .photo{
     width: 425px;
 }
