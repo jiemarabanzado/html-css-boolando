@@ -110,3 +110,40 @@
 .model{
     font-size: 16px;
 }
+/*------
+--footer-
+-----*/
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 0px;
+}
+.foot-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.normative{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+li{
+    margin-right: 10px;
+}
+.informative{
+    color: white;
+    text-decoration: none;
+}
+.social{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+.link-social{
+    color: white;
+    text-decoration: none;
+}
+i{
+    color: white;
+    font-size: 20px;
+}
