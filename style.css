@@ -67,6 +67,17 @@
 .image{
     position: relative;
 }
+.hover{
+    width: 425px;
+    position: absolute;
+    left: 0px;
+}
+.image .hover{
+    display: none;
+}
+.image:hover .hover{
+    display: inline-block;
+}
 .colonna{
     width: 425px;
     margin-bottom: 40px;
