@@ -1,3 +1,74 @@
-body{
-    background-color: pink;
+/*------
+  reset
+  ------*/
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+/*-------
+  common
+-------*/
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+/*-----
+ header
+ ---*/
+ header{
+    height: 70px;
+    background-color: #FF6900;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+.head-nav{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    
+}
+.categorie{
+    display: flex;
+    width: 30%;   
+}
+.gender{
+   margin-right: 10px;
+   color: white;
+}
+.logo-head{
+    height: 70px;
+    width: 40%;
+    text-align: center;
+}
+.logo{
+    width: 200px;
+    padding-top: 10px;
+}
+.link-icon{
+    width: 30%;
+    text-align:right;
+}
+.link{
+    color: white;
+    margin-left: 10px;
+}
+/*-------------
+   main----
+   -------*/
+.grid{
+    padding-top: 120px;
+}
+.colonna{
+    width: 450px;
+}
+.photo{
+    width: 450px;
+}
+.brand{
+    font-size: 16px;
+}
+.price{
+    font-size: 18px;
 }
